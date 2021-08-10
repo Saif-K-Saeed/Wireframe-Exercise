@@ -86,7 +86,7 @@ body {
   /* Footer Styles */
   body footer {
     clear: left;
-    height: px;
+    height: 100px;
     background: #444;
     z-index: 0;
   }
