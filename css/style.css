@@ -1,0 +1,92 @@
+/* Defaults */
+body {
+    font-family: Helvetica, sans-serif;
+    background: #FFF;
+  }
+  
+  /* Header Styles */
+  header {
+     
+    background: black;
+    height: 100px;
+  }
+  nav {
+    width: 960px;
+    margin: 0 auto;
+  }
+  nav img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 100px;
+  }
+  nav li {
+    float: left;
+    margin-top: 40px;
+    margin-right: 40px;
+    color: #bbbbbb;
+  }
+  
+  /* Main and div1 Styles */
+  main {
+    width: 960px;
+    margin: 0 auto;
+  }
+  div.div1 {
+    margin-top: 25px;
+  }
+  
+  /* Card Styles */
+  div.cards {
+     
+    margin-top: 25px;
+  }
+  div.cards > img {
+    margin-right: 28px;
+     color: black;
+    float: left;
+  }
+  div.cards > img:last-child {
+    margin-right: 0px;
+  }
+  
+  /* Section Styles */
+  div.section {
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  div.section > img {
+    float: left;
+    margin-right: 25px;
+  }
+  div.scroll {
+    height: 300px;
+    overflow: auto;
+    margin-bottom: 17px;
+  }
+  div.section h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  div.section p {
+    padding-bottom: 15px;
+  }
+  div.section button {
+    border: none;
+    background: #000;
+    padding: 8px 30px;
+    color: #FFF;
+    font-weight: 700;
+  }
+  div.section button:hover {
+    background:rgb(82, 82, 240);
+    transition-delay: 350ms;
+  }
+  
+  /* Footer Styles */
+  body footer {
+    clear: left;
+    height: 150px;
+    background: #444;
+    z-index: 0;
+  }
